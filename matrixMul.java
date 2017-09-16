@@ -21,6 +21,7 @@ public class matrixMul {
 		n = inp.nextInt();
 		int b[][] = new int[m][n];
 		
+		//Checking if they can be multiplied...
 		if(a[0].length!=b.length)
 		{
 			System.out.println("The matrices cannot be multiplied.");
